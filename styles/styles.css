@@ -1,0 +1,37 @@
+b{
+
+    color: tomato;
+    
+    
+    }
+    h1{
+    
+        color:royalblue;
+    }
+    th,h3{
+       
+    color:royalblue;
+    
+    }
+    
+    p{
+    
+    color: black;
+    
+    }
+    
+    .poem-list {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        flex-flow: wrap;
+        margin-top: 20px;
+    }
+    
+    .poem-list li ,p{
+        margin-right: 10px;
+        margin-bottom: 10px;
+       
+    }
+
+    

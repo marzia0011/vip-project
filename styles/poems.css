@@ -1,0 +1,77 @@
+body {
+    background-color: lavender;
+}
+
+.poem-list {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.poem-desc {
+    padding: 5px 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    width: 120px;
+}
+
+.single-poem {
+    width: fit-content;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.poem-desc b {
+    display: block;
+    line-height: 18px;
+}
+
+a {
+    color: #0b0b0b;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.institution-img {
+    max-width: 470px;
+}
+
+.drawing-holder {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.drawing-card {
+    border: 1px solid #0b0b0b;
+    border-radius: 10px;
+    width: 30%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.drawing-card img {
+    height: 300px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.drawing-card h5 {
+    margin: 5px 10px;
+}
+
+.propic-holder {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.propic-holder img {
+    width: 300px;
+}
